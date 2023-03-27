@@ -1,0 +1,28 @@
+$body-bg: white;
+$body-color: black;
+$primary: blue;
+$font-family: 'poppins', sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-collapse{
+    justify-content: flex-end;
+   
+}
+.custombg{
+    background: black url(../assets/apurewriter.jpg);
+    background-size: cover;
+}
+.card{
+    border: none;
+}
+.card-body{
+    background: #2e2e2e;
+    p{
+        color: #c2c2c2;
+    }
+}
+
+
+
+
